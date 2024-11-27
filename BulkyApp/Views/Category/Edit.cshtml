@@ -9,20 +9,20 @@
         </div>
     </div>
     <div class="card-body p-4">
-        <form method="post" class="row">
+        <form method="post">
             <input asp-for="Id" hidden />
-            <div class="border p-4">
+            <div class="border p-4 mt-4">
                 <div class="form-floating py-2 col-12">
-                    <input asp-for="Name" class="form-control border-0 shadow ms-2" />
-                    <label asp-for="Name" class="ms-2"></label>
+                    <input asp-for="Name" class="form-control border-0 shadow" />
+                    <label asp-for="Name" ></label>
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <div class="form-floating py-2 col-12">
-                    <input asp-for="DisplayOrder" class="form-control border-0 shadow ms-2" />
-                    <label asp-for="DisplayOrder" class="ms-2"></label>
+                    <input asp-for="DisplayOrder" class="form-control border-0 shadow" />
+                    <label asp-for="DisplayOrder" ></label>
                     <span asp-validation-for="DisplayOrder" class="text-danger"></span>
                 </div>
-                <div class="row">
+                <div class="row mt-3">
                     <div class="col-6 col-md-3">
                         <button class="btn btn-primary form-control" type="submit">
                             Update
@@ -35,6 +35,7 @@
             </div>
         </form>
     </div>
+</div>
 
 
 
